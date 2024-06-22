@@ -21,12 +21,28 @@ a {
     width: 90%;
 }
 
+.col-l-40 {
+    width: 40%;
+}
+
+.col-r-60 {
+    width: 60%;
+}
+
 .col-l-50 {
     width: 50%;
 }
 
 .col-r-50 {
     width: 50%;
+}
+
+.col-l-60 {
+    width: 60%;
+}
+
+.col-r-40 {
+    width: 40%;
 }
 
 
