@@ -1,0 +1,28 @@
+/* Color Reference Sheet */
+.c-primary {
+    color: #212121;
+}
+
+.c-secondary {
+    color: #666;
+}
+
+.c-inverse {
+    color: #fff;
+}
+
+.c-bkgd {
+    color: #fff;
+}
+
+.c-stroke {
+    color: #5B616B;
+}
+
+.c-accent-primary {
+    color: #0B3D91;
+}
+
+.c-accent-secondary {
+    color: #E4002B;
+}
