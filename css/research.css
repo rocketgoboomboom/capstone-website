@@ -1,0 +1,138 @@
+main {
+    margin: 0 16rem;
+}
+
+@media (max-width: 1199.98px) {
+    main {
+        margin: 0 6rem;
+    }
+}
+
+.col-2 {
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.title > span {
+    font-weight: 600;
+}
+
+.subtitle {
+    width: 75%;
+
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.btn-primary {
+    align-self: flex-end;
+
+    padding: 0.75rem 1rem;
+
+    border: solid #0B3D91 1.5px;
+    border-radius: 8px;
+    
+    transition: 250ms;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #0B3D91;
+
+    transition: 250ms;
+}
+
+.btn-secondary {
+    font-size: 0.875rem;
+
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    /* width: auto; */
+
+    border: solid #666 1.5px;
+    border-radius: 8px;
+
+    transition: 250ms;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #666;
+
+    transition: 250ms;
+}
+
+.btn-tertiary {
+    display: inline-block;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+/* Main Research page styling */
+
+.card-icon {
+    font-size: 2rem;
+}
+
+.card-b {
+    position: relative;
+    width: 100%;
+}
+
+.card-b-img {
+    border-radius: 16px;
+}
+
+.card-b-text {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    width: 50%;
+}
+
+.card-b-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-s {
+    padding: 1.5rem;
+    border: solid #E6E6E6 1.5px;
+    border-radius: 16px;
+}
+
+.card-s-link {
+    width: inherit;
+}
+
+.card-s-icon {
+    display: inline-block;
+    padding: 8px;
+    /* border: solid #E6E6E6 1.5px; */
+    border-radius: 8px;
+    background-color: #F2F2F2;
+}
+
+.card-s-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-s-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.card-s-desc {
+    line-height: 1.25rem;
+}
