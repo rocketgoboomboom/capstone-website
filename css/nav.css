@@ -1,0 +1,22 @@
+.nav-container {
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #fff;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+
+.nav-item-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-logo, .nav-item {
+    color: #212121;
+    text-decoration: none;
+}
