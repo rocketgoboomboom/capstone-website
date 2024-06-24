@@ -1,0 +1,56 @@
+/* Styling for sidebar in research and the guide */
+.col-l-sidebar {
+    width: 25%;
+}
+
+.col-r-content {
+    width: 75%;
+}
+
+@media (max-width: 1199.98px) {
+    .col-l-sidebar {
+        width: 30%;
+    }
+
+    .col-r-content {
+        width: 70%;
+    }
+}
+
+.sidebar > nav > a {
+    display: block;
+    width: 100%;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 100%;
+
+    border-right: solid #E6E6E6 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sidebar > nav {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* max-width: 320px; */
+
+    padding: 3rem 3rem 0 3rem;
+}
+
+.t-s-title {
+    font-size: 1.125rem;
+}
+
+.t-s-subtitle {
+    font-size: 0.875rem;
+}
+
+.t-s-body {
+    font-size: 0.875rem;
+}
