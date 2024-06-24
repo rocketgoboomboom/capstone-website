@@ -1,0 +1,97 @@
+.content {
+    margin: 0 16rem;
+    /* background-color: lightblue; */
+}
+
+@media (max-width: 1199.98px) {
+    .content {
+        margin: 0 6rem;
+    }
+}
+
+.breadcrumbs {
+    font-size: 0.875rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1 > span {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.25rem;
+}
+
+.caption-container {
+    width: 100%;
+}
+
+.caption {
+    font-size: 0.875rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.col-2 {
+    gap: 2rem;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 1rem;
+    border: solid #E6E6E6 1px;
+}
+
+.btn-link:hover {
+    border: solid #5B616B 1px;
+}
+
+.btn-previous, .btn-next {
+    background-color: white;
+    width: 100%;
+}
+
+.btn-next {
+    text-align: right;
+}
+
+/* Cards styling */
+.card-s {
+    padding: 1.5rem;
+    border: solid #E6E6E6 1.5px;
+    border-radius: 16px;
+}
+
+.card-s-link {
+    width: inherit;
+}
+
+.card-s-icon {
+    display: inline-block;
+    padding: 8px;
+    /* border: solid #E6E6E6 1.5px; */
+    border-radius: 8px;
+    background-color: #F2F2F2;
+}
+
+.card-s-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-s-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.card-s-desc {
+    line-height: 1.25rem;
+}
