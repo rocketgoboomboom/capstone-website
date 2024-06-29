@@ -1,11 +1,12 @@
 # CMU MHCI NASA Capstone 2024 Website
 
 ## Team
-Farhan Ahmed
-Margaret Lu
-Vicky Sun
-Sarina Vij
+Farhan Ahmed<br>
+Margaret Lu<br>
+Vicky Sun<br>
+Sarina Vij<br>
 Joshua Winfrey
+
 
 ## Purpose
 
