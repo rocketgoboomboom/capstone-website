@@ -13,6 +13,11 @@ a {
     flex-direction: row;
 }
 
+.col-3 {
+    display: flex;
+    flex-direction: row;
+}
+
 .col-l-10 {
     width: 15%;
 }
@@ -43,6 +48,18 @@ a {
 
 .col-r-40 {
     width: 40%;
+}
+
+.col-l-33 {
+    width: 33%;
+}
+
+.col-m-33 {
+    width: 33%;
+}
+
+.col-r-33 {
+    width: 33%;
 }
 
 
