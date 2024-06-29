@@ -95,3 +95,20 @@ p {
 .card-s-desc {
     line-height: 1.25rem;
 }
+
+/* Callout styling */
+.callout {
+    padding: 1rem 4rem;
+
+    border-left: solid 2px #0B3D91;
+}
+
+.callout-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 2rem;
+}
+
+.callout-text > span {
+    font-weight: 600;
+}
