@@ -1,6 +1,7 @@
 /* Styling for sidebar in research and the guide */
 .col-l-sidebar {
     width: 25%;
+    max-width: 250px;
 }
 
 .col-r-content {
