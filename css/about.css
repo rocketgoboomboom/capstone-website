@@ -15,6 +15,18 @@ main {
     }
 }
 
+@media (max-width: 768px) {
+    main {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    main {
+        margin: 0 1rem;
+    }
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -34,6 +46,12 @@ h1 > span {
         flex-wrap: wrap;
         gap: 2rem;
         margin-bottom: 8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-cards {
+        gap: 1rem;
     }
 }
 
@@ -100,6 +118,12 @@ h1 > span {
 }
 
 @media (max-width: 768px) {
+    .card-img-container {
+        height: 350px;
+    }
+}
+
+@media (max-width: 576px) {
     .card-img-container {
         height: 300px;
     }

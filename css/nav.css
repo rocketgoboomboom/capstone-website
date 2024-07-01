@@ -11,9 +11,21 @@
     z-index: 1;
 }
 
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 1.5rem;
+    }
+}
+
 .nav-item-container {
     display: flex;
     gap: 3rem;
+}
+
+@media (max-width: 768px) {
+    .nav-item-container {
+        display: none;
+    }
 }
 
 .nav-logo, .nav-item {
