@@ -5,3 +5,11 @@
 .i-full-h {
     height: 100%;
 }
+
+.i-border {
+    border: solid 1px #E6E6E6;
+}
+
+.i-rounded-8 {
+    border-radius: 8px;
+}

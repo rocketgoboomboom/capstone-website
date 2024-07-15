@@ -2,6 +2,12 @@ main {
     margin: 0 16rem;
 }
 
+@media (max-width: 1399.98px) {
+    main {
+        margin: 0 8rem;
+    }
+}
+
 @media (max-width: 1199.98px) {
     main {
         margin: 0 6rem;
@@ -89,8 +95,16 @@ h2 {
     width: 100%;
 }
 
+.card-b-img-container {
+    overflow: hidden;
+
+    border-radius: 1rem;
+}
+
 .card-b-img {
     border-radius: 16px;
+
+    transition: transform 0.5s ease;
 }
 
 .card-b-text {
@@ -105,8 +119,16 @@ h2 {
     font-weight: 600;
 }
 
+.card-b-desc {
+    line-height: 1.25rem;
+}
+
+.card-b:hover .card-b-img {
+    transform: scale(1.05);
+}
+
 .card-s {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     border: solid #E6E6E6 1.5px;
     border-radius: 16px;
 }
@@ -115,17 +137,27 @@ h2 {
     width: inherit;
 }
 
-.card-s-icon {
-    display: inline-block;
-    padding: 8px;
-    /* border: solid #E6E6E6 1.5px; */
-    border-radius: 8px;
-    background-color: #F2F2F2;
+.card-s-img-container {
+    overflow: hidden;
+    /* border-bottom: solid 1px #E6E6E6; */
+}
+
+.card-s-img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    transition: transform 0.5s ease;
+}
+
+.card-s:hover .card-s-img {
+    transform: scale(1.05);
 }
 
 .card-s-text {
     display: flex;
     flex-direction: column;
+
+    padding: 1.5rem;
 }
 
 .card-s-title {
