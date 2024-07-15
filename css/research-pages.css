@@ -24,6 +24,7 @@ h1 > span {
 
 h2 {
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 p {
@@ -65,7 +66,7 @@ p {
 
 /* Cards styling */
 .card-s {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     border: solid #E6E6E6 1.5px;
     border-radius: 16px;
 }
@@ -74,17 +75,16 @@ p {
     width: inherit;
 }
 
-.card-s-icon {
-    display: inline-block;
-    padding: 8px;
-    /* border: solid #E6E6E6 1.5px; */
-    border-radius: 8px;
-    background-color: #F2F2F2;
+.card-s-img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .card-s-text {
     display: flex;
     flex-direction: column;
+
+    padding: 1.5rem;
 }
 
 .card-s-title {
@@ -111,4 +111,56 @@ p {
 
 .callout-text > span {
     font-weight: 600;
+}
+
+/* Dropdown Styling */
+.dropdowns {
+    padding: 2rem 3rem;
+    border: solid 1px #E6E6E6;
+    border-radius: 1rem;
+}
+
+.dropdown-container {
+    /* border-top: solid 1px #5B616B; */
+    /* border-bottom: solid 1px #5B616B; */
+    overflow: hidden;
+
+    background-color: white;
+}
+
+.dropdown-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* border-bottom: solid 1px #5B616B; */
+
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.dropdown-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+
+    padding: 0 1.5rem;
+
+    transition: all 0.5s ease;
+}
+
+.list {
+    list-style: disc inside;
+}
+
+.dropdown-icon {
+    transition: transform 0.3s;
+}
+
+.dropdown-icon.expanded {
+    transform: rotate(180deg);
 }
