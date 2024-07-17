@@ -12,5 +12,6 @@ We are a team of Master of Human-Computer Interaction students at Carnegie Mello
 Farhan Ahmed: [Portfolio](), [LinkedIn]()<br>
 Margaret Lu: [Portfolio](https://margaretlu.com/), [LinkedIn](https://www.linkedin.com/in/mlu1822/)<br>
 Vicky Sun: [Portfolio](https://www.vicky-sun.com/), [LinkedIn](https://www.linkedin.com/in/vickycsun/)<br>
-Sarina Vij: [Portfolio](), [LinkedIn]()<br>
-Joshua Winfrey: [Portfolio](), [LinkedIn]()
+Sarina Vij: [Portfolio](), [LinkedIn](https://www.joshuawinfrey.com/
+)<br>
+Joshua Winfrey: [Portfolio](), [LinkedIn](https://www.linkedin.com/in/joshuajwinfrey/)
