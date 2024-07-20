@@ -1,166 +1,173 @@
 .content {
-    margin: 0 10rem;
-    /* background-color: lightblue; */
+  margin: 0 10rem;
+  /* background-color: lightblue; */
 }
 
 @media (max-width: 1199.98px) {
-    .content {
-        margin: 0 6rem;
-    }
+  .content {
+    margin: 0 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin: 0 2rem;
+  }
 }
 
 .breadcrumbs {
-    font-size: 0.875rem;
-    margin-top: 3rem;
+  font-size: 0.875rem;
+  margin-top: 3rem;
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h1 > span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 p {
-    line-height: 1.25rem;
+  line-height: 1.25rem;
 }
 
 .caption-container {
-    width: 100%;
+  width: 100%;
 }
 
 .caption {
-    font-size: 0.875rem;
-    font-style: italic;
-    text-align: center;
+  font-size: 0.875rem;
+  font-style: italic;
+  text-align: center;
 }
 
 .col-2 {
-    gap: 2rem;
+  gap: 2rem;
 }
 
 .btn-link {
-    display: inline-block;
-    padding: 1rem;
-    border: solid #E6E6E6 1px;
+  display: inline-block;
+  padding: 1rem;
+  border: solid #e6e6e6 1px;
 }
 
 .btn-link:hover {
-    border: solid #5B616B 1px;
+  border: solid #5b616b 1px;
 }
 
-.btn-previous, .btn-next {
-    background-color: white;
-    width: 100%;
+.btn-previous,
+.btn-next {
+  background-color: white;
+  width: 100%;
 }
 
 .btn-next {
-    text-align: right;
+  text-align: right;
 }
 
 /* Cards styling */
 .card-s {
-    /* padding: 1.5rem; */
-    border: solid #E6E6E6 1.5px;
-    border-radius: 16px;
+  /* padding: 1.5rem; */
+  border: solid #e6e6e6 1.5px;
+  border-radius: 16px;
 }
 
 .card-s-link {
-    width: inherit;
+  width: inherit;
 }
 
 .card-s-img {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .card-s-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .card-s-title {
-    font-size: 1.125rem;
-    font-weight: 600;
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 
 .card-s-desc {
-    line-height: 1.25rem;
+  line-height: 1.25rem;
 }
 
 /* Callout styling */
 .callout {
-    padding: 1rem 4rem;
+  padding: 1rem 4rem;
 
-    border-left: solid 2px #0B3D91;
+  border-left: solid 2px #0b3d91;
 }
 
 .callout-text {
-    font-size: 1.5rem;
-    font-style: italic;
-    line-height: 2rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 2rem;
 }
 
 .callout-text > span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /* Dropdown Styling */
 .dropdowns {
-    padding: 2rem 3rem;
-    border: solid 1px #E6E6E6;
-    border-radius: 1rem;
+  padding: 2rem 3rem;
+  border: solid 1px #e6e6e6;
+  border-radius: 1rem;
 }
 
 .dropdown-container {
-    /* border-top: solid 1px #5B616B; */
-    /* border-bottom: solid 1px #5B616B; */
-    overflow: hidden;
+  /* border-top: solid 1px #5B616B; */
+  /* border-bottom: solid 1px #5B616B; */
+  overflow: hidden;
 
-    background-color: white;
+  background-color: white;
 }
 
 .dropdown-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    /* border-bottom: solid 1px #5B616B; */
+  /* border-bottom: solid 1px #5B616B; */
 
-    padding: 1rem 0;
-    cursor: pointer;
+  padding: 1rem 0;
+  cursor: pointer;
 }
 
 .dropdown-title {
-    font-size: 1.25rem;
-    font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .dropdown-content {
-    max-height: 0;
-    overflow: hidden;
+  max-height: 0;
+  overflow: hidden;
 
-    padding: 0 1.5rem;
+  padding: 0 1.5rem;
 
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .list {
-    list-style: disc inside;
+  list-style: disc inside;
 }
 
 .dropdown-icon {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .dropdown-icon.expanded {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }

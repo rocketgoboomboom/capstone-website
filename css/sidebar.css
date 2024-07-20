@@ -1,57 +1,66 @@
 /* Styling for sidebar in research and the guide */
 .col-l-sidebar {
-    width: 25%;
-    max-width: 250px;
+  width: 25%;
+  max-width: 250px;
 }
 
 .col-r-content {
-    width: 75%;
+  width: 75%;
 }
 
 @media (max-width: 1199.98px) {
-    .col-l-sidebar {
-        width: 30%;
-    }
+  .col-l-sidebar {
+    width: 30%;
+  }
 
-    .col-r-content {
-        width: 70%;
-    }
+  .col-r-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-l-sidebar {
+    display: none;
+  }
+  .col-r-content {
+    width: 100%;
+  }
 }
 
 .sidebar > nav > a {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .sidebar {
-    position: sticky;
-    top: 65px;
-    left: 0;
+  position: sticky;
+  top: 65px;
+  left: 0;
 
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 
-    border-right: solid #E6E6E6 1px;
-    background-color: rgb(255, 255, 255);
+  border-right: solid #e6e6e6 1px;
+  background-color: rgb(255, 255, 255);
 }
 
 .sidebar > nav {
-    display: flex;
-    flex-direction: column;
-    /* width: 100%; */
-    /* max-width: 320px; */
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* max-width: 320px; */
 
-    padding: 3rem 3rem 0 3rem;
+  padding: 3rem 3rem 0 3rem;
 }
 
 .t-s-title {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 .t-s-subtitle {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 .t-s-body {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
