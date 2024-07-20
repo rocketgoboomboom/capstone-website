@@ -1,0 +1,41 @@
+section {
+    margin: 0 8rem;
+}
+
+.s-value {
+    margin: 0 16rem;
+    margin-bottom: 16rem;
+}
+
+.col-2 {
+    gap: 48px;
+}
+
+.col-3 {
+    gap: 48px;
+}
+
+#value-tag {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+#value {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.25rem;
+}
+
+span {
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+/* Card styling */
+.card-s-title {
+    font-weight: 500;
+}
