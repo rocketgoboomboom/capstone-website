@@ -1,20 +1,35 @@
 section {
-  margin: 0 8rem;
+  margin: 0 auto;
+  max-width: var(--content-max-width);
+  padding: 0 8rem;
 }
+
+@media (max-width: 992px) {
+  section {
+    padding: 0 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   section {
-    margin: 0 2rem;
+    padding: 0 2rem;
   }
 }
 
 .s-value {
-  margin: 0 16rem;
+  padding: 0 16rem;
   margin-bottom: 16rem;
+}
+
+@media (max-width: 992px) {
+  .s-value {
+    padding: 0 2rem;
+    margin-bottom: 12rem;
+  }
 }
 
 @media (max-width: 768px) {
   .s-value {
-    margin: 0 2rem;
     margin-bottom: 8rem;
   }
 }

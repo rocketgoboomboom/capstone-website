@@ -1,21 +1,30 @@
 main {
-  margin: 0 16rem;
+  margin: 0 auto;
+  padding: 0 16rem;
+  max-width: var(--content-max-width);
 }
 
 @media (max-width: 1399.98px) {
   main {
-    margin: 0 8rem;
+    padding: 0 8rem;
   }
 }
 
 @media (max-width: 1199.98px) {
   main {
-    margin: 0 6rem;
+    padding: 0 6rem;
   }
 }
+
+@media (max-width: 992px) {
+  main {
+    padding: 0 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   main {
-    margin: 0 2rem;
+    padding: 0 2rem;
   }
 }
 

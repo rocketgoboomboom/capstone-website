@@ -10,6 +10,14 @@
     margin: 2rem 8rem 4rem;
 }
 
+@media (max-width: 992px) {
+    .foot {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 4rem;
+    }
+}
+
 @media (max-width: 768px) {
     .foot {
         flex-direction: column;
@@ -31,9 +39,14 @@
 
 .foot-text {
     display: flex;
-    flex-direction: row;
     gap: 6rem;
     justify-content: flex-end;
+}
+
+@media (max-width: 992px) {
+    .foot-text {
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 768px) {
