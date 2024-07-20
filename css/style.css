@@ -27,6 +27,8 @@ a {
     color: black;
 }
 
+
+
 .link-ul::before {
     content: "";
     position: absolute;
@@ -47,7 +49,12 @@ a {
     transform: scaleX(1);
 }
 
+@media (max-width: 768px) {
+  .link-ul::before {
+    display: none;
+  }
 
+}
 
 /* Columns */
 .col-2 {
