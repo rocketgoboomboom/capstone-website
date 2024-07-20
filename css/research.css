@@ -112,17 +112,12 @@ h2 {
 .card-b {
   position: relative;
   width: 100%;
-}
-
-.card-b-img-container {
-  overflow: hidden;
-
   border-radius: 1rem;
+  overflow: hidden;
 }
 
 .card-b-img {
   border-radius: 16px;
-
   transition: transform 0.5s ease;
 }
 
@@ -132,6 +127,14 @@ h2 {
   left: 3rem;
   width: 50%;
 }
+
+@media (max-width: 576px) {
+  .card-b-text {
+    position: relative;
+    width: 100%;
+  }
+}
+
 
 .card-b-title {
   font-size: 1.5rem;
