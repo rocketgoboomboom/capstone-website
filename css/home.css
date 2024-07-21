@@ -63,8 +63,47 @@ span {
 }
 
 /* Card styling */
+.card-s {
+  /* padding: 1.5rem; */
+  border: solid #e6e6e6 1.5px;
+  border-radius: 16px;
+}
+
+.card-s-link {
+  width: inherit;
+}
+
+.card-s-img-container {
+  overflow: hidden;
+  line-height: 0;
+  /* border-bottom: solid 1px #E6E6E6; */
+}
+
+.card-s-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+  transition: transform 0.5s ease;
+}
+
+.card-s:hover .card-s-img {
+  transform: scale(1.05);
+}
+
+.card-s-text {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.5rem;
+}
+
 .card-s-title {
-  font-weight: 500;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.card-s-desc {
+  line-height: 1.25rem;
 }
 
 

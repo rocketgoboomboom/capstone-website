@@ -1,0 +1,55 @@
+section {
+    margin: 0 auto;
+    max-width: var(--content-max-width);
+    padding: 0 8rem;
+}
+
+@media (max-width: 992px) {
+    section {
+        padding: 0 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 0 2rem;
+    }
+}
+
+.s-value {
+    padding: 0 16rem;
+    margin-bottom: 16rem;
+}
+
+@media (max-width: 992px) {
+    .s-value {
+        padding: 0 2rem;
+        margin-bottom: 12rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .s-value {
+        margin-bottom: 8rem;
+    }
+}
+
+/* Text Styling */
+h1 {
+    font-size: 2rem;
+}
+
+/* List Styling */
+.list {
+    list-style: numeric inside;
+    padding-left: 2rem;
+}
+
+.indent-1 {
+    padding-left: 2rem;
+}
+
+/* Link Styling */
+.sitemap-links {
+    text-decoration: underline;
+}
