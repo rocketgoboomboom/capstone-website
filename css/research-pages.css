@@ -171,3 +171,25 @@ p {
 .dropdown-icon.expanded {
   transform: rotate(180deg);
 }
+
+/* Table Styling */
+table {
+  width: 100%;
+}
+
+tr, th, td {
+  padding: 1rem 2rem;
+}
+
+thead {
+  border-bottom: solid 1px #E6E6E6;
+}
+
+th {
+  font-weight: 500;
+  text-align: left;
+}
+
+td {
+  line-height: 1.25rem;
+}
