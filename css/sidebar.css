@@ -27,7 +27,7 @@
   }
 }
 
-.sidebar > nav > a {
+.sidebar > nav a {
   display: block;
   width: 100%;
 }
@@ -37,7 +37,7 @@
   top: 65px;
   left: 0;
 
-  height: 100vh;
+  height: calc(100vh - 65px);
   width: 100%;
 
   border-right: solid #e6e6e6 1px;
@@ -49,8 +49,10 @@
   flex-direction: column;
   /* width: 100%; */
   /* max-width: 320px; */
-
+  box-sizing: border-box;
+  height: 100%;
   padding: 3rem 3rem 0 3rem;
+  justify-content: space-between;
 }
 
 .t-s-title {
