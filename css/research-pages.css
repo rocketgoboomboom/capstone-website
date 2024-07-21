@@ -127,6 +127,12 @@ p {
   border-radius: 1rem;
 }
 
+@media (max-width: 768px) {
+  .dropdowns {
+    padding: 1rem 1.5rem;
+  }
+}
+
 .dropdown-container {
   /* border-top: solid 1px #5B616B; */
   /* border-bottom: solid 1px #5B616B; */
@@ -179,6 +185,18 @@ table {
 
 tr, th, td {
   padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  tr, th, td {
+    padding: 0.75rem 1rem;
+  }
+  td:first-child, th:first-child {
+    padding-left: 0;
+  }
+  td:last-child, th:last-child {
+    padding-right: 0;
+  }
 }
 
 thead {
