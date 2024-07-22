@@ -216,8 +216,16 @@ h2 {
   width: 33.33%;
   z-index: 3;
 }
+.solution-hero-trig a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 768px) {
   .solution-hero-trig{
+    display: none;
+  }
+  .solution-hero-trig a {
     display: none;
   }
 }
