@@ -150,6 +150,7 @@ p {
 
   padding: 1rem 0;
   cursor: pointer;
+  align-items: flex-start;
 }
 
 .dropdown-title {
