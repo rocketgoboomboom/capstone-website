@@ -123,17 +123,22 @@ h2 {
 
 .card-b-text {
   position: absolute;
-  bottom: 3rem;
-  left: 3rem;
+  left: 0;
+  bottom: 0;
+  padding: 0 3rem 3rem 3rem;
   width: 50%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 576px) {
   .card-b-text {
     position: relative;
     width: 100%;
+    padding: 1.5rem;
   }
 }
+
 
 .card-b-title {
   font-size: 1.5rem;
