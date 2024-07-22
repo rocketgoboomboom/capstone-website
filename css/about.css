@@ -149,7 +149,7 @@ h1 > span {
 }
 
 .card-profile-link {
-    display: block;
+    display: inline-block;
     line-height: 1.25rem;
 }
 
