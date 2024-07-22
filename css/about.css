@@ -149,8 +149,9 @@ h1 > span {
 }
 
 .card-profile-link {
-    display: inline-block;
+    display: block;
     line-height: 1.25rem;
+    width: fit-content;
 }
 
 .col-2 {
