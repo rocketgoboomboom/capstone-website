@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     content.style.maxHeight = "0px";
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const content = document.getElementById('content5');
+    content.style.maxHeight = "0px";
+});
+
 function expandContent(dropdownContent, dropdownIcon) {
     const content = dropdownContent;
     const icon = dropdownIcon;

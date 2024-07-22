@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/research-pages.css">
+
+    <script src="../js/research-pages.js" defer></script>
 </head>
 
 <body class="t-inter">
@@ -93,63 +95,83 @@
                 By combining existing NASA Human Research Program (HRP) research as well as information that we gathered from expert interviews with astronaut trainers, we generated task qualities that help us simulate the qualities of an anomaly. These task qualities will help us build and develop our tasks.
             </p>
 
-            <div class="card-s mb-64">
-                <p class="c-primary card-s-desc">"Our lives are hours of boredom punctuated by moments of terror." —NYPD Police Officer</p>
-            </div>
+            <!-- Task Qualities List -->
+            <h2 class="c-primary mb-24">5 Task Qualities</h2>
 
-            <!-- <h2 class="c-primary mb-24">Literature Review</h2> -->
-            <p class="c-primary mb-64">
-                NASA cannot fully rely on current studies to assess the effectiveness of their complex systems within these unique conditions. Therefore, they must develop their own standards and methodologies tailored specifically to their operational environment.
-            </p>
-
-            
-
-            <div class="col-2 mb-48">
-                <div class="col-l-50">
-                    <div class="card-s">
-                        <div class="card-s-icon mb-16">
-                            <span class="material-symbols-rounded card-icon c-primary">book</span>
-                        </div>
-                        <div class="card-s-text">
-                            <h4 class="c-accent-primary card-s-title mb-16">Literature Review</h4>
-                            <p class="c-secondary card-s-desc mb-16">Understanding NASA Human Systems Integration Division, training procedures, and creative problem solving</p>
-                        </div>
+            <div class="dropdowns mb-64">
+                <div class="dropdown-container mb-16">
+                    <div class="dropdown-header" onclick="expandContent(content1, icon1)">
+                        <h4 class="c-accent-primary dropdown-title">① Information Prioritization</h4>
+                        <span class="material-symbols-rounded c-accent-primary dropdown-icon arrow" id="icon1">keyboard_arrow_down</span>
+                    </div>
+                    <div class="dropdown-content" id="content1">
+                        <ul class="list">
+                            <li class="list-item">Anomalies require astronauts to distinguish critical information from non-critical information and prioritize problems based on what is most likely to lead to fatality, as this poses teh greatest threat to mission success.</li>
+                            <!-- <li class="mb-16">Specific expertise required; challenge of "from 80+ people to 4" working the problem</li>
+                            <li class="mb-16">Complexity of system and of anomaly</li>
+                            <li>Challenge of safely perturbing the system to gain understanding of cause and effect</li> -->
+                        </ul>
                     </div>
                 </div>
-                <div class="col-r-50">
-                    <div class="card-s">
-                        <div class="card-s-icon mb-16">
-                            <span class="material-symbols-rounded card-icon c-primary">person</span>
-                        </div>
-                        <div class="card-s-text">
-                            <h4 class="c-accent-primary card-s-title mb-16">NASA Interviews</h4>
-                            <p class="c-secondary card-s-desc mb-16">Interviewing astronauts, spaceflight trainers, researchers, and flight controllers</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-2 mb-64">
-                <div class="col-l-50">
-                    <div class="card-s">
-                        <div class="card-s-icon mb-16">
-                            <span class="material-symbols-rounded card-icon c-primary">book</span>
-                        </div>
-                        <div class="card-s-text">
-                            <h4 class="c-accent-primary card-s-title mb-16">Analogous Interviews</h4>
-                            <p class="c-secondary card-s-desc mb-16">Interviewing pilots, new parents, game designers, scientists, and designers to understand</p>
-                        </div>
+                <div class="dropdown-container mb-16">
+                    <div class="dropdown-header" onclick="expandContent(content2, icon2)">
+                        <h4 class="c-accent-primary dropdown-title">② Cascading Problems</h4>
+                        <span class="material-symbols-rounded c-accent-primary dropdown-icon arrow" id="icon2">keyboard_arrow_down</span>
+                    </div>
+                    <div class="dropdown-content" id="content2">
+                        <ul class="list">
+                            <li class="list-item">Situations where an initial issue or failure triggers a series of subsequent failures, each one compounding the impact of the previous one. since systems are so interconnected, astronauts will definitely have to encounter such events on long-duration missions.</li>
+                            <!-- <li class="mb-16">Systems thinking to perform risk assessments</li>
+                            <li class="mb-16">Rapid synthesis and decision-making</li>
+                            <li class="mb-16">Resource limited environment, limited redundancy, sparing, etc.</li>
+                            <li>Procedures may have unexpected outcomes</li> -->
+                        </ul>
                     </div>
                 </div>
-                <div class="col-r-50">
-                    <div class="card-s">
-                        <div class="card-s-icon mb-16">
-                            <span class="material-symbols-rounded card-icon c-primary">warning</span>
-                        </div>
-                        <div class="card-s-text">
-                            <h4 class="c-accent-primary card-s-title mb-16">Anomalies</h4>
-                            <p class="c-secondary card-s-desc mb-16">Historical understanding of anomalies and the qualities that made them difficult to solve</p>
-                        </div>
+
+                <div class="dropdown-container mb-16">
+                    <div class="dropdown-header" onclick="expandContent(content3, icon3)">
+                        <h4 class="c-accent-primary dropdown-title">③ Multiple Stressors</h4>
+                        <span class="material-symbols-rounded c-accent-primary dropdown-icon arrow" id="icon3">keyboard_arrow_down</span>
+                    </div>
+                    <div class="dropdown-content" id="content3">
+                        <ul class="list">
+                            <li class="list-item">Astronauts face a great deal of psychological stress and pressure when dealing with critical anomalies. Having ot problem-solve and predict the effects of your actions in time-intensive situations is very difficult, so tasks should have multiple stressors to account for this.</li>
+                            <!-- <li class="mb-16">Sensors are limited resource, do not cover all parts of the system</li>
+                            <li class="mb-16">Historical data may be limited or unavailable</li>
+                            <li>Challenge to parse out relevant data</li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown-container mb-16">
+                    <div class="dropdown-header" onclick="expandContent(content4, icon4)">
+                        <h4 class="c-accent-primary dropdown-title">④ Creative and Systematic Thinking</h4>
+                        <span class="material-symbols-rounded c-accent-primary dropdown-icon arrow" id="icon4">keyboard_arrow_down</span>
+                    </div>
+                    <div class="dropdown-content" id="content4">
+                        <ul class="list">
+                            <li class="list-item">Creative thinking involves being able to repurpose existing knowledge in novel ways to develop efficient solutions while systematic thinking extends beyond one-to-one problem relationships.</li>
+                            <!-- <li class="mb-16">Time pressure on execution/completion of procedure</li>
+                            <li class="mb-16">Competing priorities (e.g., inattention to other critical operations)</li>
+                            <li>Simultaneous efforts required (safing, investigating, downstream impact)</li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown-container">
+                    <div class="dropdown-header" onclick="expandContent(content5, icon5)">
+                        <h4 class="c-accent-primary dropdown-title">⑤ Built for Teams</h4>
+                        <span class="material-symbols-rounded c-accent-primary dropdown-icon arrow" id="icon5">keyboard_arrow_down</span>
+                    </div>
+                    <div class="dropdown-content" id="content5">
+                        <ul class="list">
+                            <li class="list-item">There will be multiple astronauts dealing with anomalies. It is crucial for the success of any mission that astronauts can collaborate effectively and utilize the existing knowledge that each astronaut has. Tasks must make way for communication using features like assigning participants specified roles.</li>
+                            <!-- <li class="mb-16">Time pressure on execution/completion of procedure</li>
+                            <li class="mb-16">Competing priorities (e.g., inattention to other critical operations)</li>
+                            <li>Simultaneous efforts required (safing, investigating, downstream impact)</li> -->
+                        </ul>
                     </div>
                 </div>
             </div>

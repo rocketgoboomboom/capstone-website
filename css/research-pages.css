@@ -167,7 +167,7 @@ p {
 }
 
 .list {
-  list-style: disc inside;
+  list-style: disc outside;
 }
 
 .dropdown-icon {
@@ -176,6 +176,10 @@ p {
 
 .dropdown-icon.expanded {
   transform: rotate(180deg);
+}
+
+.list-item {
+  line-height: 1.25rem;
 }
 
 /* Table Styling */
@@ -210,4 +214,16 @@ th {
 
 td {
   line-height: 1.25rem;
+}
+
+/* Blockquote styline */
+.blockquote {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  padding: 2rem;
+}
+
+.blockquote > span {
+  font-weight: 600;
 }
