@@ -67,6 +67,8 @@ span {
   /* padding: 1.5rem; */
   border: solid #e6e6e6 1.5px;
   border-radius: 16px;
+
+  overflow: hidden;
 }
 
 .card-s-link {
@@ -104,6 +106,32 @@ span {
 
 .card-s-desc {
   line-height: 1.25rem;
+}
+
+.btn-secondary {
+  font-size: 0.875rem;
+
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  /* width: auto; */
+
+  border: solid #666 1.5px;
+  border-radius: 8px;
+
+  transition: 250ms;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: #666;
+
+  transition: 250ms;
+}
+
+.btn-tertiary {
+  display: inline-block;
+  align-self: flex-end;
+  margin-left: auto;
 }
 
 
