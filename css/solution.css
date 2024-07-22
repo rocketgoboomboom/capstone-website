@@ -152,6 +152,8 @@ h2 {
   /* padding: 1.5rem; */
   border: solid #e6e6e6 1.5px;
   border-radius: 16px;
+
+  overflow: hidden;
 }
 
 .card-s-link {
