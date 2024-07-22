@@ -15,6 +15,7 @@
   }
 }
 
+/* Text styling */
 .breadcrumbs {
   font-size: 0.875rem;
   margin-top: 3rem;
@@ -31,6 +32,7 @@ h1 > span {
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
+  line-height: 2rem;
 }
 
 p {
@@ -47,10 +49,12 @@ p {
   text-align: center;
 }
 
+/* Spacing */
 .col-2 {
   gap: 2rem;
 }
 
+/* buttons */
 .btn-link {
   display: inline-block;
   padding: 1rem;
@@ -105,15 +109,15 @@ p {
 
 /* Callout styling */
 .callout {
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
 
   border-left: solid 2px #0b3d91;
 }
 
 .callout-text {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-style: italic;
-  line-height: 2rem;
+  line-height: 1.75rem;
 }
 
 .callout-text > span {
@@ -156,6 +160,7 @@ p {
 .dropdown-title {
   font-size: 1.25rem;
   font-weight: 500;
+  line-height: 1.75rem;
 }
 
 .dropdown-content {
@@ -167,6 +172,7 @@ p {
   transition: all 0.5s ease;
 }
 
+/* List Styling */
 .list {
   list-style: disc outside;
 }
