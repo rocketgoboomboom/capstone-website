@@ -28,9 +28,19 @@ section {
   }
 }
 
+.col-center {
+  align-items: center;
+}
+
 .col-2 {
   gap: 3rem;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .col-2 {
+    gap: 1.5rem;
+  }
 }
 
 .col-3 {
@@ -257,4 +267,9 @@ h2 {
 }
 .trig-3:hover ~ .hero-1, .trig-3:hover ~ .hero-2 {
   opacity: 0;
+}
+
+.intro {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
